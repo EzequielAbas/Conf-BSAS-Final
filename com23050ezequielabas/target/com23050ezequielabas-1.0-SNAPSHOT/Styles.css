@@ -1,0 +1,277 @@
+/* Background */
+
+.bg-graynav {
+    background-color: #393e44;
+}
+
+.nav-link2 {
+    color: #90c732;
+}
+
+.text-success {
+    color: #90c732;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar-toggler {
+    line-height: 1;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: .15s ease-in-out;
+}
+
+.navbar-toggler-icon {
+    cursor: pointer;
+}
+
+.button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+
+/* Opacidad-img */
+
+.op-img {
+    opacity: .2;
+    filter: alpha(opacity=50);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+/* Imágenes Carrousel */
+
+.tot-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Imágenes Carrousel */
+
+.img-1 {
+    background-image: url(Imagenes/ba1.jpg);
+}
+
+.img-2 {
+    background-image: url(Imagenes/ba2.jpg);
+}
+
+.img-3 {
+    background-image: url(Imagenes/ba3.jpg);
+}
+
+#texto_encima {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+.grad-img {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+.grad-img div {
+    bottom: 10rem;
+    right: 8rem;
+    text-align: end;
+}
+
+.btn-success-green {
+    color: #fff;
+    background-color: #90c732;
+    border-color: #90c732;
+}
+
+.nav-item-green {
+    color: #90c732;
+}
+
+.col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-block {
+    display: block;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-compra-tickets,
+    .btn-log-reg {
+        border: 1px solid transparent;
+        border-radius: .8rem;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1d3847;
+    margin-top: 1rem;
+}
+
+footer .bg-cr {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+footer {
+    align-self: flex-end;
+}
+
+.container-7 {
+    position: relative;
+    width: 100%;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    margin-bottom: -25px;
+}
+
+.formulario1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-outline-light {
+    font-weight: bold;
+}
