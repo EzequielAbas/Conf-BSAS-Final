@@ -2,6 +2,9 @@
 Conf-BSAS-Final
 
 Páginas:
+https://github.com/EzequielAbas/Conf-BSAS-Final/
+https://youtu.be/-Ddl-NHvQ4M
+https://www.youtube.com/watch?v=-Ddl-NHvQ4M&ab_channel=EzequielAbas
 
 Proyecto final
 Grupos separados: Comisión 23050
