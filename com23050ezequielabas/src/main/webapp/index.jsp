@@ -273,7 +273,7 @@ response.sendRedirect("login.jsp");
         <!-- COPYRIGHT -->
         <div class="text-center p-1 ">
             © 2023 Copyright:
-            <a class="text-white " href="https://github.com/EzequielAbas/Conf-BSAS ">Ezequiel Abas</a>
+            <a class="text-white "https://github.com/EzequielAbas/Conf-BSAS-Final">Ezequiel Abas</a>
         </div>
     </section>
 </footer>
